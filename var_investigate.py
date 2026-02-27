@@ -1,37 +1,29 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=22614912&assignment_repo_type=AssignmentRepo)
-# 0.4-variables-investigation
-## Startup
-
-1. Git clone the repository into Unit0, under Investigate
-2. Create a new file called vars_investigate.py
-3. Copy / paste the below code into that file
-4. Play around with the file
-
-## Instructions
-1. Change the **values** of all of the variable names so that the story reads a bit differently. DO NOT CHANGE ANYTHING IN THE PRINT FUNCTION YET
-2. Add 3 new variables in the Input section and then add those variables to the story in the print function!
-
-
-```python - copy code below
 """
-author:
-date:
+author: Aiden Amparo
+date:Febuarary 10 2026
 Investigating Variables
 """
 
 # Input
-name = "Mr. Nguyen"
-grade = 13
-favourite_exclamation = "bruh"
-least_favourite_colour = "yellow"
+name = "Aiden Amparo"
+grade = 11
+favourite_exclamation = "Yeo"
+least_favourite_colour = "blue"
 is_cool = True
-math_test_score = 90.15
+math_test_score = 90
 sister_name = None
 
 slope = 2
 y_intercept = 10
 x = 3
 y = slope * x + y_intercept
+
+favourite_food = "Buldak Carbonara"
+moms_name = "Chrismelyn"
+friends_name = "Daquavis Jones"
+
+
+
 
 # Processing / Output
 print(
@@ -43,5 +35,9 @@ print(
     + f"so I needed to, on the next line, say that the value of y was {y}. "
     + f"I told my sister {sister_name} about this and she just laughed at me 🙄"
     + "Anyway, that's the story of my math test."
+    f"After my mom, {moms_name} picked me up from school she asked me what I wanted to eat when we get home"
+    f"I told her about how I got a {math_test_score} on the math test so I feel that I deserve my {favourite_food}!!"
+    f"When I told my mom this she was happy for me and said {favourite_exclamation} you should be proud of a {math_test_score}"
+    f"She then told me that I can go out with {friends_name} and my friends after we go home, since I deserve it."
+    "So that is how my day has been going today."
 )
-```
